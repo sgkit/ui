@@ -5878,6 +5878,11 @@ main.bootui > div.contain:after,
 * Semantic bootstrap
 *
 *******************/
+.bootui div,
+.bootui p,
+.bootui aside {
+  margin-bottom: 10px;
+}
 section.bootui > div,
 header.bootui > div,
 footer.bootui > div,
