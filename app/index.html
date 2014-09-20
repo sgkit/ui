@@ -19,7 +19,7 @@
     <![endif]-->
 </head>
 
-<body class="home">
+<body class="home-">
     <div id="page">
 
 
@@ -55,19 +55,17 @@
 
         </nav>
         <header class="bootui">
-            <div class="position middle">
+            <div class="position middle ccode">
                 <div>
                     <div class="contain">
 
                         <h1>SGKIT/UI</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cupiditate et hic id iste mollitia nam reiciendis tempora. Beatae cumque dolorem earum eum ex perspiciatis quidem repellendus ullam. Distinctio impedit quasi quod quos sapiente sint suscipit
-                            voluptate. Aliquid at atque, aut consequuntur delectus dicta dolorem eum ipsa magni minima nobis numquam odio placeat porro quo, reprehenderit tempore, voluptatum. Asperiores, minus.
-                        </p>
+                        <p>Vertically align elements <code>class="position middle"</code> </p>
                     </div>
                  </div>
             </div>
         </header>
+
         <section class="bootui">
             <div class="blog">
                 <div class="blocks">
@@ -103,13 +101,28 @@
        </p>
    </div>
 </footer>
-
+        <!--view source modal-->
+        <div id="source-modal" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Source Code</h4>
+                    </div>
+                    <div class="modal-body">
+                        <pre></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <script src="ccode.js"></script>
+        <script src="main.js"></script>
 
 
     </div>
